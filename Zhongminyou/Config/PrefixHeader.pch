@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  ProjectFrameOC
+//
+//  Created by 神无月 on 22/12/2017.
+//  Copyright © 2017 神无月. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "CommonDef.h"
+#import "ToolKit.h"
+#import "DataProvider.h"
+
+#pragma mark - Category
+#import "UIView+Category.h"
+#import "UIImage+Category.h"
+#import "UITextField+Category.h"
+#import "NSString+Category.h"
+
+#pragma mark - ThreeSDK
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "MJRefresh.h"
+#import "SVProgressHUD.h"
+
+#endif /* PrefixHeader_pch */

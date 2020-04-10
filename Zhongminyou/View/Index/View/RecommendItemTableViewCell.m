@@ -1,0 +1,104 @@
+//
+//  RecommendItemTableViewCell.m
+//  Zhongminyou
+//
+//  Created by 李发起 on 2020/4/9.
+//
+
+#import "RecommendItemTableViewCell.h"
+
+#define CellHeight FH(100)
+
+@implementation RecommendItemTableViewCell
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        [self setUpUI];
+    }
+    return self;;
+}
+
+#pragma mark - setUpUI
+-(void)setUpUI{
+    // showIv
+    UIImageView *showIv = [[UIImageView alloc] initWithFrame:CGRectMake(FW(15), FH(5), CellHeight - FH(5) * 2, CellHeight - FH(5) * 2)];
+    showIv.layer.masksToBounds = YES;
+    showIv.layer.cornerRadius = 5;
+    [showIv sd_setImageWithURL:nil placeholderImage:[UIImage imageNamed:@"158330"]];
+    [self.contentView addSubview:showIv];
+    // titleLbl
+    UILabel *titleLbl = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(showIv.frame) + FW(5), CGRectGetMinY(showIv.frame) + FH(5), ScreenWidth - (CGRectGetMaxX(showIv.frame) + FW(5) + FW(15+60+15)), FH(21))];
+    titleLbl.text = @"蒙山路加油站";
+    [self.contentView addSubview:titleLbl];
+    // moneyLbl
+    NSString *priceStr = @"￥100";
+    UIFont *priceFont = [UIFont systemFontOfSize:14];
+    CGFloat priceWidth = [ToolKit getSizeWithString:priceStr andFont:priceFont].width;
+    UILabel *moneyLbl = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMinX(titleLbl.frame), CGRectGetMaxY(titleLbl.frame) + FH(10), priceWidth, FH(21))];
+    moneyLbl.font = priceFont;
+    moneyLbl.textColor = [UIColor redColor];
+    moneyLbl.text = priceStr;
+    [self.contentView addSubview:moneyLbl];
+    // changeBgLeftLbl
+    NSString *changeLeftStr = @"▾下降";
+    UIFont *changeLeftFont = [UIFont systemFontOfSize:10];
+    CGFloat changeLeftWidth = [ToolKit getSizeWithString:changeLeftStr andFont:changeLeftFont].width + FW(10);
+    UILabel *changeBgLeftLbl = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(moneyLbl.frame) + FW(5), CGRectGetMinY(moneyLbl.frame) + FH(2), changeLeftWidth, FH(18))];
+    changeBgLeftLbl.backgroundColor = [UIColor redColor];
+    changeBgLeftLbl.font = [UIFont systemFontOfSize:10];
+    changeBgLeftLbl.textColor = [UIColor whiteColor];
+    changeBgLeftLbl.textAlignment = NSTextAlignmentCenter;
+    changeBgLeftLbl.text = changeLeftStr;
+    [self.contentView addSubview:changeBgLeftLbl];
+    // changeBgRightLbl
+    NSString *changeRightStr = @"3.4";
+    UIFont *changeRightFont = [UIFont systemFontOfSize:10];
+    CGFloat changeRightWidth = [ToolKit getSizeWithString:changeRightStr andFont:changeRightFont].width + FW(10);
+    UILabel *changeBgRightLbl = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(changeBgLeftLbl.frame), CGRectGetMinY(moneyLbl.frame) + FH(2), changeRightWidth, FH(18))];
+    changeBgRightLbl.layer.borderWidth = 1;
+    changeBgRightLbl.layer.borderColor = [UIColor redColor].CGColor;
+    changeBgRightLbl.backgroundColor = [UIColor whiteColor];
+    changeBgRightLbl.font = [UIFont systemFontOfSize:10];
+    changeBgRightLbl.textAlignment = NSTextAlignmentCenter;
+    changeBgRightLbl.textColor = ColorRGB(100, 100, 100);
+    changeBgRightLbl.text = changeRightStr;
+    [self.contentView addSubview:changeBgRightLbl];
+    // guobiaopriceLbl
+    UILabel *guobiaopriceLbl = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(changeBgRightLbl.frame) + FW(5), CGRectGetMinY(changeBgRightLbl.frame), FW(150), FH(18))];
+    guobiaopriceLbl.font = [UIFont systemFontOfSize:10];
+    guobiaopriceLbl.textColor = [UIColor grayColor];
+    guobiaopriceLbl.text = SWYNSStringFromFormat(@"国标价￥%@",@"4.12");
+    [self.contentView addSubview:guobiaopriceLbl];
+    // addressLbl
+    UILabel *addressLbl = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMinX(moneyLbl.frame) + FW(2.5), CGRectGetMaxY(moneyLbl.frame) + FH(10), FW(200), FH(18))];
+    addressLbl.font = [UIFont systemFontOfSize:10];
+    addressLbl.textColor = [UIColor grayColor];
+    addressLbl.text = @"山东省临沂市兰山区八一路304号";
+    [self.contentView addSubview:addressLbl];
+    // dingweiBtn
+    UIButton *dingweiBtn = [[UIButton alloc] initWithFrame:CGRectMake(ScreenWidth - FW(15+10+22), FH(30), FW(22), FW(22))];
+    dingweiBtn.layer.masksToBounds = YES;
+    dingweiBtn.layer.cornerRadius = FW(22) / 2;
+    dingweiBtn.backgroundColor = [UIColor blueColor];
+    [self.contentView addSubview:dingweiBtn];
+    // dingweiIv
+    UIImageView *dingweiIv = [[UIImageView alloc] initWithFrame:CGRectMake(FW(22-15) / 2, FW(22-15) / 2, FW(15), FW(15))];
+    dingweiIv.contentMode = UIViewContentModeScaleAspectFit;
+    dingweiIv.image = [UIImage imageNamed:@"dibiao"];
+    [dingweiBtn addSubview:dingweiIv];
+    // distanceLbl
+    UILabel *distanceLbl = [[UILabel alloc] initWithFrame:CGRectMake(ScreenWidth - FW(15+10+22+10), CGRectGetMaxY(dingweiBtn.frame) + FH(10), FW(10+22+10), FH(18))];
+    distanceLbl.textAlignment = NSTextAlignmentCenter;
+    distanceLbl.font = [UIFont systemFontOfSize:10];
+    distanceLbl.textColor = [UIColor grayColor];
+    distanceLbl.text = @"0.06km";
+    [self.contentView addSubview:distanceLbl];
+}
+
+#pragma mark - func
++ (CGFloat)getCellHeight{
+    return CellHeight;
+}
+
+@end
