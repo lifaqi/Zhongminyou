@@ -12,7 +12,9 @@
 #import "ForgetViewController.h"
 
 @interface LoginViewController (){
-    
+    // view
+    UITextField *accountTf;
+    UITextField *passwordTf;
 }
 
 @property (nonatomic, strong) UIButton *loginBtn;
@@ -46,22 +48,23 @@
     [logoBgView addSubview:logoIv];
     
     // accountTf
-    UITextField *accountTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(logoBgView.frame) + FH(50), ScreenWidth - FW(30) * 2, FH(45))];
+    accountTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(logoBgView.frame) + FH(50), ScreenWidth - FW(30) * 2, FH(45))];
     accountTf.backgroundColor = [UIColor whiteColor];
     accountTf.layer.borderWidth = 0.5;
     accountTf.layer.borderColor = ColorRGBA(244, 244, 244, 0.3).CGColor;
     accountTf.layer.cornerRadius = CGRectGetHeight(accountTf.frame) / 2;
     accountTf.leftPadding = 20;
-    accountTf.placeholder = @"用户名/电话";
+    accountTf.placeholder = @"手机号";
     [self.view addSubview:accountTf];
     
     // passwordTf
-    UITextField *passwordTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(accountTf.frame) + FH(30), ScreenWidth - FW(30) * 2, FH(45))];
+    passwordTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(accountTf.frame) + FH(30), ScreenWidth - FW(30) * 2, FH(45))];
     passwordTf.backgroundColor = [UIColor whiteColor];
     passwordTf.layer.borderWidth = 0.5;
     passwordTf.layer.borderColor = ColorRGBA(244, 244, 244, 0.3).CGColor;
     passwordTf.layer.cornerRadius = CGRectGetHeight(passwordTf.frame) / 2;
     passwordTf.leftPadding = 20;
+    passwordTf.secureTextEntry = YES;
     passwordTf.placeholder = @"密码";
     [self.view addSubview:passwordTf];
     
@@ -76,7 +79,7 @@
     [loginBtn.layer addSublayer:gradientLayer];
     
     // registerBtn
-    UIButton *registerBtn = [[UIButton alloc] initWithFrame:CGRectMake(CGRectGetMinX(loginBtn.frame) + FW(10), CGRectGetMaxY(loginBtn.frame) + FH(20), FW(100), FH(44))];
+    UIButton *registerBtn = [[UIButton alloc] initWithFrame:CGRectMake((ScreenWidth - FW(100)) / 2, CGRectGetMaxY(loginBtn.frame) + FH(20), FW(100), FH(44))];
     registerBtn.titleLabel.font = [UIFont systemFontOfSize:14];
     [registerBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [registerBtn setTitle:@"注册账号" forState:UIControlStateNormal];
@@ -84,12 +87,12 @@
     [self.view addSubview:registerBtn];
     
     // forgetBtn
-    UIButton *forgetBtn = [[UIButton alloc] initWithFrame:CGRectMake(CGRectGetMaxX(loginBtn.frame) - FW(100) - FW(10), CGRectGetMaxY(loginBtn.frame) + FH(20), FW(100), FH(44))];
-    forgetBtn.titleLabel.font = [UIFont systemFontOfSize:14];
-    [forgetBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [forgetBtn setTitle:@"忘记密码" forState:UIControlStateNormal];
-    [forgetBtn addTarget:self action:@selector(forgetEvent) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:forgetBtn];
+//    UIButton *forgetBtn = [[UIButton alloc] initWithFrame:CGRectMake(CGRectGetMaxX(loginBtn.frame) - FW(100) - FW(10), CGRectGetMaxY(loginBtn.frame) + FH(20), FW(100), FH(44))];
+//    forgetBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+//    [forgetBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//    [forgetBtn setTitle:@"忘记密码" forState:UIControlStateNormal];
+//    [forgetBtn addTarget:self action:@selector(forgetEvent) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:forgetBtn];
 }
 
 #pragma mark - property
@@ -97,7 +100,34 @@
 
 #pragma mark - event
 -(void)loginEvent{
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"loginCallBackSetting" object:nil userInfo:nil];
+
+    NSString *accountValue = [ToolKit dealWithString:accountTf.text];
+    NSString *passwordValue = [ToolKit dealWithString:passwordTf.text];
+    
+    if ([accountValue isEqualToString:@""]) {
+        [ToolKit showErrorWithStatus:@"请输入账号"];
+        return;
+    }
+    
+    if ([passwordValue isEqualToString:@""]) {
+        [ToolKit showErrorWithStatus:@"请输入密码"];
+        return;
+    }
+    
+    [ToolKit showWithStatus:@"登录中..."];
+    [[DataProvider shareInstance] login:accountValue andPassword:passwordValue andCallBackBlock:^(id dict) {
+        if ([dict[@"code"] intValue] == 0) {
+            [ToolKit dismiss];
+            
+            [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionTransitionFlipFromRight animations:^{
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"loginCallBackSetting" object:nil userInfo:nil];
+            } completion:^(BOOL finished) {
+                [ToolKit setAccountInfo:[AccountInfoModel AccountInfoWithDict:accountValue andPassword:passwordValue]];
+            }];
+        }else{
+            [ToolKit showErrorWithStatus:dict[@"msg"]];
+        }
+    }];
 }
 
 -(void)registerEvent{

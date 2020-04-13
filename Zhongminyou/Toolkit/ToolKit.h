@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "AccountInfoModel.h"
+#import "UserInfoModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -24,6 +26,18 @@ typedef void (^GCDCallBack)(void);
 
 /// 判断是否登录，如果未登录，则跳转到登录页面
 +(BOOL)isLoginAndJumpLoginPage:(UIViewController *)vc;
+
+/// 设置账户信息
++(void)setAccountInfo:(AccountInfoModel *)model;
+
+/// 获取账户信息
++(AccountInfoModel *)getAccountInfo;
+
+/// 设置用户信息
++(void)setUserInfo:(UserInfoModel *)model;
+
+/// 获取用户信息
++(UserInfoModel *)getUserInfo;
 
 #pragma mark - 字符串处理
 /// 获取字符串高度

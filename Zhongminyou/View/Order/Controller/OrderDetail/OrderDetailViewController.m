@@ -45,7 +45,7 @@
 
 #pragma mark - initView
 -(void)initView{
-    _mTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, HeaderHeight, ScreenWidth, ScreenHeight - HeaderHeight - TabBarHeight)];
+    _mTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, HeaderHeight, ScreenWidth, ScreenHeight - HeaderHeight)];
     _mTableView.dataSource = self;
     _mTableView.delegate = self;
     _mTableView.tableFooterView = [[UIView alloc] init];
@@ -87,6 +87,7 @@
     return cell;
 }
 
+#pragma mark - UITableViewDelegate
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return FH(50);
 }
@@ -109,7 +110,6 @@
     return headerView;;
 }
 
-#pragma mark - UITableViewDelegate
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return [OrderDetailTableViewCell getCellHeight];
 }

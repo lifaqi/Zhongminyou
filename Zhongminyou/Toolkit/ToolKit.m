@@ -39,6 +39,26 @@
     }
 }
 
++(void)setAccountInfo:(AccountInfoModel *)model{
+    NSData *tempData = [NSKeyedArchiver archivedDataWithRootObject:model requiringSecureCoding:YES error:nil];
+    [ToolKit setValueByKey:@"AccountInfo" andObject:tempData];
+}
+
++(AccountInfoModel *)getAccountInfo{
+    NSData *tempData = [ToolKit getValueByKey:@"AccountInfo"];
+    return [NSKeyedUnarchiver unarchivedObjectOfClass:[AccountInfoModel class] fromData:tempData error:nil];
+}
+
++(void)setUserInfo:(UserInfoModel *)model{
+    NSData *tempData = [NSKeyedArchiver archivedDataWithRootObject:model requiringSecureCoding:YES error:nil];
+    [ToolKit setValueByKey:@"UserInfo" andObject:tempData];
+}
+
++(UserInfoModel *)getUserInfo{
+    NSData *tempData = [ToolKit getValueByKey:@"UserInfo"];
+    return [NSKeyedUnarchiver unarchivedObjectOfClass:[AccountInfoModel class] fromData:tempData error:nil];
+}
+
 #pragma mark - 字符串处理
 +(CGFloat)getHeightWithString:(NSString *)string fontSize:(CGFloat)fontSize width:(CGFloat)width{
     NSDictionary *attrs = @{NSFontAttributeName:[UIFont systemFontOfSize:fontSize]};

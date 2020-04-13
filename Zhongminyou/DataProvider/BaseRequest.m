@@ -57,10 +57,10 @@
     NSString *json = @"";
     @try {
         if (params && results && params.count == results.count) {
-            json = [NSString stringWithFormat:@"\"%@\":\"%@\"",params[0],results[0]];
-            for (int i = 1; i < params.count ; i++) {
-                if ([params[i] isEqual:@"paramValues"]) {
-                    json = [NSString stringWithFormat:@"%@,\"%@\":%@",json,params[i],results[i]];
+            json = @"";
+            for (int i = 0; i < params.count ; i++) {
+                if (i == 0) {
+                    json = [NSString stringWithFormat:@"\"%@\":\"%@\"",params[i],results[i]];
                 }else{
                     json = [NSString stringWithFormat:@"%@,\"%@\":\"%@\"",json,params[i],results[i]];
                 }
@@ -104,8 +104,8 @@
         // 进度条
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject){
         // 请求服务器成功
-        NSData *resultData = [[[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding] dataUsingEncoding:NSUTF8StringEncoding];
-        id dataDict = [NSJSONSerialization JSONObjectWithData:resultData options:0 error:nil];
+//        NSData *resultData = [[[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding] dataUsingEncoding:NSUTF8StringEncoding];
+        id dataDict = responseObject;//[NSJSONSerialization JSONObjectWithData:resultData options:0 error:nil];
         
         callBackBlock(dataDict);
         

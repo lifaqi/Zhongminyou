@@ -11,14 +11,20 @@
 #import "IndexMenuTableViewCell.h"
 #import "RecommendTitleTableViewCell.h"
 #import "RecommendItemTableViewCell.h"
-
+#import "LininzuijinTableViewCell.h"
+#import "LijijiayouView.h"
+#import "SureOrderViewController.h"
 
 #define IndexLunbotuTableViewCellIdentifier @"IndexLunbotuTableViewCell"
 #define IndexMenuTableViewCellIdentifier @"IndexMenuTableViewCell"
 #define RecommendTitleTableViewCellIdentifier @"RecommendTitleTableViewCell"
 #define RecommendItemTableViewCellIdentifier @"RecommendItemTableViewCell"
+#define LininzuijinTableViewCellIdentifier @"LininzuijinTableViewCell"
 
-@interface IndexViewController ()<UITableViewDataSource, UITableViewDelegate>
+@interface IndexViewController ()<UITableViewDataSource, UITableViewDelegate>{
+    // view
+    LijijiayouView *lijijiayouView;
+}
 
 @property (nonatomic, strong) UITableView *mTableView;
 
@@ -47,6 +53,16 @@
     [_mTableView registerClass:[IndexMenuTableViewCell class] forCellReuseIdentifier:IndexMenuTableViewCellIdentifier];
     [_mTableView registerClass:[RecommendTitleTableViewCell class] forCellReuseIdentifier:RecommendTitleTableViewCellIdentifier];
     [_mTableView registerClass:[RecommendItemTableViewCell class] forCellReuseIdentifier:RecommendItemTableViewCellIdentifier];
+    [_mTableView registerClass:[LininzuijinTableViewCell class] forCellReuseIdentifier:LininzuijinTableViewCellIdentifier];
+    
+    // lijijiayouView
+    lijijiayouView = [[LijijiayouView alloc] initWithFrame:CGRectMake(0, HeaderHeight, ScreenWidth, ScreenHeight - HeaderHeight - TabBarHeight)];
+    WEAKSELF;
+    lijijiayouView.lijiPayCallBack = ^{
+        SureOrderViewController *sureOrderVC = [[SureOrderViewController alloc] init];
+        sureOrderVC.hidesBottomBarWhenPushed = YES;
+        [weakSelf.navigationController pushViewController:sureOrderVC animated:YES];
+    };
 }
 
 #pragma mark - UITableViewDataSource
@@ -56,7 +72,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (section == 0) {
-        return 2;
+        return 3;
     }else{
         return 1 + 10;;
     }
@@ -66,6 +82,13 @@
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
             IndexLunbotuTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:IndexLunbotuTableViewCellIdentifier forIndexPath:indexPath];
+            return cell;
+        }else if (indexPath.row == 1){
+            LininzuijinTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:LininzuijinTableViewCellIdentifier forIndexPath:indexPath];
+            cell.lijijiayouCallBack = ^{
+                [self.view addSubview:self->lijijiayouView];
+                [self->lijijiayouView show];
+            };
             return cell;
         }else{
             IndexMenuTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:IndexMenuTableViewCellIdentifier forIndexPath:indexPath];
@@ -119,6 +142,8 @@
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
             return [IndexLunbotuTableViewCell getCellHeight];
+        }else if (indexPath.row == 1){
+            return [LininzuijinTableViewCell getCellHeight];
         }else{
             return [IndexMenuTableViewCell getCellHeight];
         }
@@ -128,6 +153,13 @@
         }else{
             return [RecommendItemTableViewCell getCellHeight];
         }
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 1 && indexPath.row > 0) {
+        [self.view addSubview:self->lijijiayouView];
+        [self->lijijiayouView show];
     }
 }
 

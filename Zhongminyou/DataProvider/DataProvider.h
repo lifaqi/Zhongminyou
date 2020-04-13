@@ -13,14 +13,20 @@
 /// 创建单例对象
 +(DataProvider *)shareInstance;
 
-#pragma mark - Main
+#pragma mark - 登录&注册
+-(void)login:(NSString *)phone andPassword:(NSString *)password andCallBackBlock:(CallBackBlock)callBackBlock;
 
-#pragma mark - Classify
+-(void)registerAccount:(NSString *)phone andPassword:(NSString *)password andNickName:(NSString *)nickName andCallBackBlock:(CallBackBlock)callBackBlock;
+
+#pragma mark - 首页
 
 /// 根据主题获取相册
 -(void)getFoldersByTheme:(NSString *)themeId andPage:(NSString *)page andRow:(NSString *)row andCallBackBlock:(CallBackBlock)callBackBlock;
 
-/// 根据相册获取图片
--(void)getPicturesByFolderId:(NSString *)flderId andPage:(NSString *)page andRow:(NSString *)row andCallBackBlock:(CallBackBlock)callBackBlock;
+#pragma mark - 加油站
+
+#pragma mark - 订单
+
+#pragma mark - 我的
 
 @end

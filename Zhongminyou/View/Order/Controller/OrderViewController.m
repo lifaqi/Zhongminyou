@@ -161,6 +161,7 @@
 
 -(void)clickLeijixiaofeiEvent{
     LeijixiaofeiViewController *leijixiaofeiVC = [[LeijixiaofeiViewController alloc] init];
+    leijixiaofeiVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:leijixiaofeiVC animated:YES];
 }
 
@@ -202,6 +203,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     OrderDetailViewController *orderDetalVC = [[OrderDetailViewController alloc] init];
+    orderDetalVC.hidesBottomBarWhenPushed = YES;
     orderDetalVC.orderType = OrderTypePay;
     [self.navigationController pushViewController:orderDetalVC animated:YES];
 }

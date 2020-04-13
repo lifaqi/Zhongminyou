@@ -47,7 +47,7 @@
     [self.view addSubview:moneyTitleLbl];
     
     // _mTableView
-    _mTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(moneyTitleLbl.frame) + FH(15), ScreenWidth, ScreenHeight - (CGRectGetMaxY(moneyTitleLbl.frame) + FH(15)) - TabBarHeight)];
+    _mTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(moneyTitleLbl.frame) + FH(15), ScreenWidth, ScreenHeight - (CGRectGetMaxY(moneyTitleLbl.frame) + FH(15)))];
     _mTableView.dataSource = self;
     _mTableView.delegate = self;
     _mTableView.tableFooterView = [[UIView alloc] init];

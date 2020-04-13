@@ -10,8 +10,8 @@
 #define CommonDef_h
 
 #pragma mark - 服务器地址
-#define BaseUrl @"http://122.114.222.228:8080/ofd/app"
-#define ImageUrl @"http://122.114.222.228:8080/ofd/app"
+#define BaseUrl @"https://zmy.yiduoxilanhua.cn"
+#define ImageUrl @"https://zmy.yiduoxilanhua.cn"
 
 #pragma mark - 机型判断 //
 #define IPHONE5S ScreenWidth == 320 && ScreenHeight == 568

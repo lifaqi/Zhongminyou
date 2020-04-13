@@ -11,6 +11,9 @@
 
 @interface RegisterViewController ()<TTTAttributedLabelDelegate>{
     UIButton *checkBtn;
+    UITextField *nickNameTf;
+    UITextField *phoneTf;
+    UITextField *passwordTf;
 }
 
 @property (nonatomic, strong) TTTAttributedLabel *fuwutiaokuanLbl;
@@ -42,7 +45,7 @@
     [logoBgView addSubview:logoIv];
     
     // nickNameTf
-    UITextField *nickNameTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(logoBgView.frame) + FH(50), ScreenWidth - FW(30) * 2, FH(45))];
+    nickNameTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(logoBgView.frame) + FH(50), ScreenWidth - FW(30) * 2, FH(45))];
     nickNameTf.backgroundColor = [UIColor whiteColor];
     nickNameTf.layer.borderWidth = 0.5;
     nickNameTf.layer.borderColor = ColorRGBA(244, 244, 244, 0.3).CGColor;
@@ -52,7 +55,7 @@
     [self.view addSubview:nickNameTf];
     
     // phoneTf
-    UITextField *phoneTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(nickNameTf.frame) + FH(30), ScreenWidth - FW(30) * 2, FH(45))];
+    phoneTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(nickNameTf.frame) + FH(30), ScreenWidth - FW(30) * 2, FH(45))];
     phoneTf.backgroundColor = [UIColor whiteColor];
     phoneTf.layer.borderWidth = 0.5;
     phoneTf.layer.borderColor = ColorRGBA(244, 244, 244, 0.3).CGColor;
@@ -62,18 +65,20 @@
     [self.view addSubview:phoneTf];
     
     // passwordTf
-    UITextField *passwordTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(phoneTf.frame) + FH(30), ScreenWidth - FW(30) * 2, FH(45))];
+    passwordTf = [[UITextField alloc] initWithFrame:CGRectMake(FW(30), CGRectGetMaxY(phoneTf.frame) + FH(30), ScreenWidth - FW(30) * 2, FH(45))];
     passwordTf.backgroundColor = [UIColor whiteColor];
     passwordTf.layer.borderWidth = 0.5;
     passwordTf.layer.borderColor = ColorRGBA(244, 244, 244, 0.3).CGColor;
     passwordTf.layer.cornerRadius = CGRectGetHeight(passwordTf.frame) / 2;
     passwordTf.leftPadding = 20;
+    passwordTf.secureTextEntry = YES;
     passwordTf.placeholder = @"密码";
     [self.view addSubview:passwordTf];
     // kejianBtn
     UIButton *kejianBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, FH(17), FH(17))];
     kejianBtn.imageView.contentMode = UIViewContentModeScaleAspectFit;
     [kejianBtn setImageEdgeInsets:UIEdgeInsetsMake(5, 0, 5, 0)];
+    kejianBtn.selected = YES;
     [kejianBtn setImage:[UIImage imageNamed:@"kejian"] forState:UIControlStateNormal];
     [kejianBtn setImage:[UIImage imageNamed:@"bukejian"] forState:UIControlStateSelected];
     [kejianBtn addTarget:self action:@selector(kejianEvent:) forControlEvents:UIControlEventTouchUpInside];
@@ -123,10 +128,47 @@
 #pragma mark - event
 -(void)kejianEvent:(UIButton *)sender{
     sender.selected = !sender.selected;
+    
+    passwordTf.secureTextEntry = sender.selected;
 }
 
 -(void)registerEvent{
+    if (!checkBtn.selected) {
+        [ToolKit showErrorWithStatus:@"请先同意用户协议"];
+        return;
+    }
     
+    NSString *nickNameValue = [ToolKit dealWithString:nickNameTf.text];
+    NSString *phoneValue = [ToolKit dealWithString:phoneTf.text];
+    NSString *passwordValue = [ToolKit dealWithString:passwordTf.text];
+    
+    if ([nickNameValue isEqualToString:@""]) {
+        [ToolKit showErrorWithStatus:@"请输入昵称"];
+        return;
+    }
+    
+    if ([phoneValue isEqualToString:@""]) {
+        [ToolKit showErrorWithStatus:@"请输入手机号"];
+        return;
+    }else if (![ToolKit validateMobile:phoneValue]){
+        [ToolKit showErrorWithStatus:@"手机号格式不正确，请重新输入"];
+//        return;
+    }
+    
+    if ([passwordValue isEqualToString:@""]) {
+        [ToolKit showErrorWithStatus:@"请输入密码"];
+        return;
+    }
+    
+    [ToolKit showWithStatus:@"注册中..."];
+    [[DataProvider shareInstance] registerAccount:phoneValue andPassword:passwordValue andNickName:nickNameValue andCallBackBlock:^(id dict) {
+        if ([dict[@"code"] intValue] == 0) {
+            [ToolKit showSuccessWithStatus:@"注册成功"];
+            [self.navigationController popViewControllerAnimated:YES];
+        }else{
+            [ToolKit showErrorWithStatus:dict[@"msg"]];
+        }
+    }];
 }
 
 -(void)clickCheckEvent:(UIButton *)sender{

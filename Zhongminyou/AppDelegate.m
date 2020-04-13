@@ -8,7 +8,6 @@
 #import "AppDelegate.h"
 #import "FirstScrollController.h"
 #import "LoginViewController.h"
-#import "CustomTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -30,17 +29,16 @@
         FirstScrollController *firstSC = [[FirstScrollController alloc] init];
         self.window.rootViewController = firstSC;
     } else {
-//        LoginViewController *loginVC = [[LoginViewController alloc] init];
-        CustomTabBarViewController *customTabBarVC = [[CustomTabBarViewController alloc] init];
-        UINavigationController *loginNC = [[UINavigationController alloc] initWithRootViewController:customTabBarVC];
+        LoginViewController *loginVC = [[LoginViewController alloc] init];
+        UINavigationController *loginNC = [[UINavigationController alloc] initWithRootViewController:loginVC];
         loginNC.navigationBar.hidden = YES;
         self.window.rootViewController = loginNC;
     }
     
     [self.window makeKeyAndVisible];
     
-    NSLog(@"%f",[[UIScreen mainScreen] currentMode].size.width);
-    NSLog(@"%f",[[UIScreen mainScreen] currentMode].size.height);
+    NSLog(@"width:%f",[[UIScreen mainScreen] currentMode].size.width);
+    NSLog(@"height:%f",[[UIScreen mainScreen] currentMode].size.height);
     
     return YES;
 }
