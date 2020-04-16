@@ -10,6 +10,7 @@
 #import "AppDelegate.h"
 #import "AccountInfoModel.h"
 #import "UserInfoModel.h"
+#import "LocationModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -66,6 +67,9 @@ typedef void (^GCDCallBack)(void);
 
 /// 获取字符串的首字母
 + (NSString *)firstCharactorWithString:(NSString *)string;
+
+/// 处理字符串里的特殊字符
++(NSString *)handleSpecialCharacters:(NSString *)str;
 
 #pragma mark - UIView处理
 /// 获取顶层view
@@ -160,6 +164,11 @@ typedef void (^GCDCallBack)(void);
 
 /// 创建子线程
 +(void)createAsyncThreads:(GCDCallBack)gcdCallBack;
+
+#pragma mark - 地图信息
++(void)setLocationModelInfo:(LocationModel *)model;
+
++(LocationModel *)getLocationInfo;
 
 #pragma mark - UIAlertView
 +(void)alertView:(id)target andTitle:(NSString *)title andMsg:(NSString *)msg andCancelButtonTitle:(NSString *)cancelButtonTitle andOtherButtonTitle:(NSString *)otherButtonTitle handler:(void (^)(int buttonIndex, UIAlertAction *alertView))handler;

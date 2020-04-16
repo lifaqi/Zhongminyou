@@ -9,9 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UserInfoModel : NSObject
+@interface UserInfoModel : NSObject<NSSecureCoding>
 
-@property (nonatomic, strong) NSString *nickName;
+@property (nonatomic, strong) NSString *access_token;
 
 +(instancetype)UserInfoWithDict:(NSDictionary *)dict;
 

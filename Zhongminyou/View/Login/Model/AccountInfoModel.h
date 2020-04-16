@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AccountInfoModel : NSObject
+@interface AccountInfoModel : NSObject<NSSecureCoding>
 
 @property (nonatomic, strong) NSString *account;
 @property (nonatomic, strong) NSString *password;

@@ -98,7 +98,7 @@
             
             scaleFactor = imageWidth / targetWidth;// 计算高度缩小系数
             
-        }else if(heightFactor >1&& widthFactor <1){
+        }else if(heightFactor > 1 && widthFactor <1){
             
             //第三种,高度不够比例,宽度缩小一点点(heightFactor大于一,说明目标高度比原图片高度大,此时只要拉伸宽度系数)
             

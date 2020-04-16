@@ -32,6 +32,9 @@
         // AFPropertyListRequestSerializer    PList(是一种特殊的XML,解析起来相对容易)
         _manager.requestSerializer = [AFHTTPRequestSerializer serializer];
         
+        // 设置请求头
+        [_manager.requestSerializer setValue:[ToolKit getUserInfo].access_token forHTTPHeaderField:@"access_token"];
+        
         // 超时时间
         _manager.requestSerializer.timeoutInterval = 15;
         
@@ -62,7 +65,7 @@
                 if (i == 0) {
                     json = [NSString stringWithFormat:@"\"%@\":\"%@\"",params[i],results[i]];
                 }else{
-                    json = [NSString stringWithFormat:@"%@,\"%@\":\"%@\"",json,params[i],results[i]];
+                    json = [NSString stringWithFormat:@"%@,\"%@\":\"%@\"",json,params[i],[ToolKit handleSpecialCharacters:results[i]]];
                 }
             }
             json = [NSString stringWithFormat:@"{%@}",json];
@@ -81,13 +84,13 @@
 #pragma mark - request
 - (void)getRequest:(NSString *)url andCallBackBlock:(CallBackBlock)callBackBlock {
     
-    dataTask = [self.manager GET:url parameters:nil progress:^(NSProgress * _Nonnull downloadProgress){
+    dataTask = [self.manager GET:[ToolKit handleSpecialCharacters:url] parameters:nil progress:^(NSProgress * _Nonnull downloadProgress){
         // 进度条
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject){
         // 请求服务器成功
-        NSData *resultData = [[[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding] dataUsingEncoding:NSUTF8StringEncoding];
-        id dataDict = [NSJSONSerialization JSONObjectWithData:resultData options:0 error:nil];
+//        NSData *resultData = [[[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding] dataUsingEncoding:NSUTF8StringEncoding];
+        id dataDict = responseObject; // [NSJSONSerialization JSONObjectWithData:resultData options:0 error:nil];
         
         callBackBlock(dataDict);
         

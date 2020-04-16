@@ -24,6 +24,10 @@ target 'Zhongminyou' do
   
   # 文本内容中部分触发点击事件
   pod 'TTTAttributedLabel', '2.0.0'
+  
+  # 高德地图
+  pod 'AMapLocation' # 定位SDK
+  pod 'AMap2DMap' # 2D地图SDK
 
   target 'ZhongminyouTests' do
     inherit! :search_paths

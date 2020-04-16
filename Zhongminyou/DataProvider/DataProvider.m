@@ -52,26 +52,95 @@
 
 #pragma mark - 首页
 
-// 根据主题获取相册
--(void)getFoldersByTheme:(NSString *)themeId andPage:(NSString *)page andRow:(NSString *)row andCallBackBlock:(CallBackBlock)callBackBlock{
-    NSString *url = [NSString stringWithFormat:@"%@/fol/getFoldersByTheme",BaseUrl];
+// 查询推荐加油站list  默认查询附近100公里内所有加油站 距离从小到大排序
+-(void)getCommentGasList:(NSString *)lng andLat:(NSString *)lat andOil:(NSString *)oil andCallBackBlock:(CallBackBlock)callBackBlock{
+    NSString *url = [NSString stringWithFormat:@"%@/api/v1/filling/static/recommend/list?lng=%@&lat=%@&oil=%@",BaseUrl, lng, lat, oil];
     
-    NSDictionary *params = [self handleParam:@[@"FThemeID",
-                                               @"page",
-                                               @"row"]
-                                   andResult:@[themeId,
-                                               page,
-                                               row]];
-    [self postRequest:url andParams:params andCallBackBlock:^(id dict) {
+    [self getRequest:url andCallBackBlock:^(id dict) {
         callBackBlock(dict);
     }];
 }
 
 #pragma mark - 加油站
 
+// 附近加油站
+-(void)getFujinGasList:(NSString *)lng andLat:(NSString *)lat andCallBackBlock:(CallBackBlock)callBackBlock{
+    NSString *url = [NSString stringWithFormat:@"%@/api/v1/filling/static/nearby/list?lng=%@&lat=%@",BaseUrl, lng, lat];
+    
+    [self getRequest:url andCallBackBlock:^(id dict) {
+        callBackBlock(dict);
+    }];
+}
+
+// 加油站详情
+-(void)getGasDetail:(NSString *)gasId andCallBackBlock:(CallBackBlock)callBackBlock{
+    NSString *url = [NSString stringWithFormat:@"%@/api/v1/filling/static/get/%@",BaseUrl, gasId];
+    
+    [self getRequest:url andCallBackBlock:^(id dict) {
+        callBackBlock(dict);
+    }];
+}
+
 #pragma mark - 订单
 
+// 确认支付
+-(void)surePay:(NSString *)staticId andMachineCode:(NSString *)machineCode andMachineNozzleCode:(NSString *)machineNozzleCode andMachineNozzleOilsType:(NSString *)machineNozzleOilsType andMachineNozzleOils:(NSString *)machineNozzleOils andOilsPrice:(NSString *)oilsPrice andLitre:(NSString *)litre andTotal:(NSString *)total andCallBackBlock:(CallBackBlock)callBackBlock{
+    NSString *url = [NSString stringWithFormat:@"%@/api/wx/filling/order/doUnifiedOrder",BaseUrl];
+    
+    NSDictionary *params = [self handleParam:@[@"staticId",
+                                               @"machineCode",
+                                               @"machineNozzleCode",
+                                               @"machineNozzleOilsType",
+                                               @"machineNozzleOils",
+                                               @"oilsPrice",
+                                               @"litre",
+                                               @"total"]
+                                   andResult:@[staticId,
+                                               machineCode,
+                                               machineNozzleCode,
+                                               machineNozzleOilsType,
+                                               machineNozzleOils,
+                                               oilsPrice,
+                                               litre,
+                                               total]];
+    
+    [self postRequest:url andParams:params andCallBackBlock:^(id dict) {
+        callBackBlock(dict);
+    }];
+    
+//    [self getRequest:url andCallBackBlock:^(id dict) {
+//        callBackBlock(dict);
+//    }];
+}
+
+// 获取全部订单
+-(void)getAllOrder:(CallBackBlock)callBackBlock{
+    NSString *url = [NSString stringWithFormat:@"%@/api/v1/filling/order/list",BaseUrl];
+    
+    [self getRequest:url andCallBackBlock:^(id dict) {
+        callBackBlock(dict);
+    }];
+}
+
+// 获取订单：1是未支付,2是已支付
+-(void)getOrder:(NSString *)orderId andCallBackBlock:(CallBackBlock)callBackBlock{
+    NSString *url = [NSString stringWithFormat:@"%@/api/v1/filling/order/paystatus/get/%@",BaseUrl, orderId];
+    
+    [self getRequest:url andCallBackBlock:^(id dict) {
+        callBackBlock(dict);
+    }];
+}
+
 #pragma mark - 我的
+
+// 加油站详情
+-(void)getUserInfo:(CallBackBlock)callBackBlock{
+    NSString *url = [NSString stringWithFormat:@"%@/api/v1/filling/member/info/get",BaseUrl];
+    
+    [self getRequest:url andCallBackBlock:^(id dict) {
+        callBackBlock(dict);
+    }];
+}
 
 
 

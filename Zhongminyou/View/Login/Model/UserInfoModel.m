@@ -17,7 +17,7 @@
     self = [super init];
     if (self) {
         @try {
-            self.nickName = dict[@""];
+            self.access_token = [ToolKit dealWithString:dict[@"data"]];
         }
         @catch (NSException *exception) {
             
@@ -33,15 +33,21 @@
 /*
  * 自定义的对象 无法直接写入到userdefault中 需要转化为 nsdata 这时需要实现下面两个方法
  */
-- (void)encodeWithCoder:(NSCoder *)coder{
-    [coder encodeObject:self.nickName forKey:@"nickName"];
+-(instancetype)initWithCoder:(NSCoder *)decoder{
+    self = [super init];
+    if (self) {
+        self.access_token = [decoder decodeObjectOfClass:[NSString class] forKey:@"access_token"];
+    }
+    
+    return self;
 }
 
+- (void)encodeWithCoder:(NSCoder *)encoder{
+    [encoder encodeObject:self.access_token forKey:@"access_token"];
+}
 
--(instancetype)initWithCoder:(NSCoder *)coder{
-    self.nickName = [[coder decodeObjectForKey:@"nickName"] copy];
-
-    return self;
++ (BOOL)supportsSecureCoding{
+    return YES;
 }
 
 @end

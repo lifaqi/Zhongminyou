@@ -14,8 +14,8 @@
             filePath = "Zhongminyou/Toolkit/ToolKit.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "350"
-            endingLineNumber = "350"
+            startingLineNumber = "359"
+            endingLineNumber = "359"
             landmarkName = "+getGradientColor:andColorArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "-setUpUI"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "Zhongminyou/View/Index/View/IndexLunbotuTableViewCell.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "-setUpUI"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "Zhongminyou/View/Index/View/IndexLunbotuTableViewCell.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "-setUpUI"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "-setItemArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "-setSelectIndex:"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "-setItemArray:"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +126,8 @@
             filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "-show"
             landmarkType = "7">
          </BreakpointContent>
@@ -142,8 +142,8 @@
             filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "-clickBgEvent"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,8 +158,8 @@
             filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "-show"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,8 +174,8 @@
             filePath = "Zhongminyou/Toolkit/ToolKit.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "505"
-            endingLineNumber = "505"
+            startingLineNumber = "525"
+            endingLineNumber = "525"
             landmarkName = "+setValueByKey:andObject:"
             landmarkType = "7">
          </BreakpointContent>
@@ -190,8 +190,8 @@
             filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
             landmarkName = "-show"
             landmarkType = "7">
          </BreakpointContent>
@@ -206,8 +206,8 @@
             filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "-show"
             landmarkType = "7">
          </BreakpointContent>
@@ -222,8 +222,8 @@
             filePath = "Zhongminyou/View/Index/View/RecommendItemTableViewCell.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "-initWithStyle:reuseIdentifier:"
             landmarkType = "7">
          </BreakpointContent>
@@ -263,54 +263,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0515D680-A305-4BB5-9CAF-C816DECE3AFD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Zhongminyou/View/Index/Controller/IndexViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F419D776-B851-4299-85EC-88ADA1AC6B68"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "218"
-            endingLineNumber = "218"
-            landmarkName = "-initYouhaoView"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "24338126-3615-4F90-BFA7-28C9E0B21FED"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "238"
-            endingLineNumber = "238"
-            landmarkName = "-initYouhaoView"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "16D0D76A-DD01-4128-9AEB-22AABFEA0081"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -318,8 +270,8 @@
             filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
+            startingLineNumber = "368"
+            endingLineNumber = "368"
             landmarkName = "-show"
             landmarkType = "7">
          </BreakpointContent>
@@ -334,8 +286,8 @@
             filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "246"
-            endingLineNumber = "246"
+            startingLineNumber = "365"
+            endingLineNumber = "365"
             landmarkName = "-show"
             landmarkType = "7">
             <Locations>
@@ -382,8 +334,8 @@
             filePath = "Zhongminyou/View/Index/View/LininzuijinTableViewCell.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
             landmarkName = "-clickLijijiayouEvent"
             landmarkType = "7">
          </BreakpointContent>
@@ -455,70 +407,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B0253976-C0FC-478F-88F8-4542FE67B499"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
-            landmarkName = "-postRequest:andParams:andCallBackBlock:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CDCB4FA0-333B-4C43-ADF9-1A2EFB1B9505"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "-postRequest:andParams:andCallBackBlock:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A0FC4961-81EC-40E1-8BB8-16EE6C8EC0A6"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
-            landmarkName = "-postRequest:andParams:andCallBackBlock:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CFA601E3-040C-4B45-AB54-177949A3B354"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "-postRequest:andParams:andCallBackBlock:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "5C142EAC-624E-458D-AC7A-BBAF64059360"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -529,22 +417,6 @@
             startingLineNumber = "165"
             endingLineNumber = "165"
             landmarkName = "-registerEvent"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F64186EB-BCDA-4EAE-AE3E-E19624AE616C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
-            landmarkName = "-postRequest:andParams:andCallBackBlock:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -574,9 +446,1623 @@
             filePath = "Zhongminyou/View/Login/Controller/LoginViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "-loginEvent"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "635EFD37-9B02-4AB9-BE60-28941693BC71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Gas/Controller/GasViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-getDataSource"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1581DD16-2E19-42ED-8B7F-7494CAFCD79C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Gas/Controller/GasViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "-getDataSource"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0D4A59F-7F17-4F64-AEE4-F735478430B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Model/UserInfoModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-initWithDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47A0A5DD-C567-4A8E-9259-0CD94891F249"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/Toolkit/ToolKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "+getUserInfo"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDCE8B86-5445-47F4-9E2A-43517485B6DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/Toolkit/ToolKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "+setUserInfo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA7B4042-FE42-4280-B2C4-FB661376042E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/Toolkit/ToolKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "+setAccountInfo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85E637E9-141C-40B4-A4F4-3BA0CC548381"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/Toolkit/ToolKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "+setAccountInfo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "472F4DA8-9673-48E3-B6FD-87523CF1D8A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Model/AccountInfoModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-encodeWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3426A737-AC72-435E-B409-5F3416E41B25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Model/AccountInfoModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-initWithDict:andPassword:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA68FF61-654A-4E05-A3D0-4EAA2116FCFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/Toolkit/ToolKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "+getAccountInfo"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B64EF2A-62F6-4C33-8482-E484837E4084"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Model/UserInfoModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-initWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F44A469-B6F1-4F49-8EF1-94A3C07E0468"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-postRequest:andParams:andCallBackBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F44A469-B6F1-4F49-8EF1-94A3C07E0468 - b67c17bad69d09b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BaseRequest postRequest:andParams:andCallBackBlock:]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/BaseRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "8F44A469-B6F1-4F49-8EF1-94A3C07E0468 - ae4e5c02a2451f82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__54-[BaseRequest postRequest:andParams:andCallBackBlock:]_block_invoke"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/BaseRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E2E1774-0F21-4DB1-B8EC-1C7E263F3F5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-postRequest:andParams:andCallBackBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D82E210-9213-402F-B81C-4E7E753802EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "-postRequest:andParams:andCallBackBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D82E210-9213-402F-B81C-4E7E753802EC - 87e18bdc6a568a9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BaseRequest postRequest:andParams:andCallBackBlock:]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/Documents/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/WorkSpace/Zhongminyou/Zhongminyou/DataProvider/BaseRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "598">
+               </Location>
+               <Location
+                  uuid = "4D82E210-9213-402F-B81C-4E7E753802EC - fe817826f33beebd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__54-[BaseRequest postRequest:andParams:andCallBackBlock:]_block_invoke_2"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/Documents/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/WorkSpace/Zhongminyou/Zhongminyou/DataProvider/BaseRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "4D82E210-9213-402F-B81C-4E7E753802EC - fe817826f33becbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__54-[BaseRequest postRequest:andParams:andCallBackBlock:]_block_invoke_3"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/Documents/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/WorkSpace/Zhongminyou/Zhongminyou/DataProvider/BaseRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0C3082F-6959-41D8-A305-DEF4ACA8FFA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA24CD4D-E049-4FC7-8999-65908167F1B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-applicationDidBecomeActive:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13C4B1CA-E766-4901-84C1-F24B23087EC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-amapLocationManager:doRequireLocationAuth:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1A92C7F-613E-46F1-A601-3EEC3CFF718E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-initConfiguration:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "154F2680-CE3A-4303-9BB7-3E657C8F42E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-initConfiguration:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CB91752-245C-4B95-8618-0097631CC891"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-amapLocationManager:didUpdateLocation:reGeocode:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "477890C0-6FC4-4A64-9E74-1C37E46ACF71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-amapLocationManager:didUpdateLocation:reGeocode:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0D75934-A422-4477-96BB-A10F784CB814"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-amapLocationManager:didUpdateLocation:reGeocode:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8FBD4E9-C092-4DCA-A01C-510173F9BFBD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Model/LocationModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-initWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FB494DD-5BDA-4613-BA76-E0F4319E1901"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Model/LocationModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-initWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "159F9176-41C8-4E99-AFFE-97E590EC5240"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Model/LocationModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-encodeWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31E54125-2007-40FB-BC3A-754759B8F96E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/Toolkit/ToolKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "467"
+            endingLineNumber = "467"
+            landmarkName = "+setLocationModelInfo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0228C8E4-6B6A-4FA9-836E-576B8FA67BF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Model/LocationModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "-initWithDict:andLat:andAddress:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07CE5A2C-A417-4C99-AE23-968BD77F0AE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/RecommendItemTableViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-setGasDataDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F4999F9-77C2-4337-AF9B-00C9A3C3589F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/CustomUI/SWYMapVIewController/SWYMapViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-mapView:viewForAnnotation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4AA79AF-11A5-4D9A-8E1D-668AAE5B4E3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/CustomUI/SWYMapVIewController/SWYMapViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-setUpUI"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A79EC5DD-702F-403D-8CC8-A320EA85E897"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/RecommendItemTableViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "-clickDingweiEvent"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93115347-09E0-44F7-B86C-3AABA2C41EA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/Controller/IndexViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "-getDataSource"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A876CF4-1AAF-46A5-B11B-0AC8195A5E04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "324"
+            endingLineNumber = "324"
+            landmarkName = "-setGasDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3A63A30-4D88-4D56-A8B6-6FF9DED09EB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/DataProvider.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-getGasDetail:andCallBackBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E3A63A30-4D88-4D56-A8B6-6FF9DED09EB3 - f784371b3d92c303"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DataProvider getGasDetail:andCallBackBlock:]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/DataProvider.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  uuid = "E3A63A30-4D88-4D56-A8B6-6FF9DED09EB3 - 9ca42b6039ff1095"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__46-[DataProvider getGasDetail:andCallBackBlock:]_block_invoke"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/DataProvider.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA3CCE68-1F3B-42DB-990A-2720A7761627"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "-initYouhaoView"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA3CCE68-1F3B-42DB-990A-2720A7761627 - bcd86d70dde3e080"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LijijiayouView initYouhaoView]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "240"
+                  endingLineNumber = "240"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "EA3CCE68-1F3B-42DB-990A-2720A7761627 - bcd86d70dde3e080"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LijijiayouView initYouhaoView]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "240"
+                  endingLineNumber = "240"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "750DC67C-E226-4D16-A3BC-016CD1CD0C46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/Controller/IndexViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-initView"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "750DC67C-E226-4D16-A3BC-016CD1CD0C46 - add2f91b7dde72f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[IndexViewController initView]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/View/Index/Controller/IndexViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "6386">
+               </Location>
+               <Location
+                  uuid = "750DC67C-E226-4D16-A3BC-016CD1CD0C46 - fd520cb581bfac6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__31-[IndexViewController initView]_block_invoke"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/View/Index/Controller/IndexViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B152F038-9A9A-440A-B248-5CA07A4857AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "-initYouhaoView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98B8FF2F-ED80-4CC8-8EDB-5A5768F0E754"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/DataProvider.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-getCommentGasList:andLat:andOil:andCallBackBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98B8FF2F-ED80-4CC8-8EDB-5A5768F0E754 - 2a8024133868d17f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DataProvider getCommentGasList:andLat:andOil:andCallBackBlock:]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/DataProvider.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "251">
+               </Location>
+               <Location
+                  uuid = "98B8FF2F-ED80-4CC8-8EDB-5A5768F0E754 - 18c85917b53a4b24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__65-[DataProvider getCommentGasList:andLat:andOil:andCallBackBlock:]_block_invoke"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/DataProvider.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3A5B2A4-E704-483C-A0E3-E50CD0F02AB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/DataProvider.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-getCommentGasList:andLat:andOil:andCallBackBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C44B243D-24E4-422A-8C6B-136A40D674A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Controller/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "-loginEvent"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C780444-2EDB-4F6E-8E3B-4674A76F7BFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-getRequest:andCallBackBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C780444-2EDB-4F6E-8E3B-4674A76F7BFC - 549f42d5d5503415"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BaseRequest getRequest:andCallBackBlock:]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/BaseRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "2C780444-2EDB-4F6E-8E3B-4674A76F7BFC - 7b47e61047694fee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[BaseRequest getRequest:andCallBackBlock:]_block_invoke"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/BaseRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5B08A32-B147-4D4E-ACCB-402935199A4C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-getRequest:andCallBackBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C5B08A32-B147-4D4E-ACCB-402935199A4C - 549f42d5d5503415"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BaseRequest getRequest:andCallBackBlock:]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/BaseRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "73">
+               </Location>
+               <Location
+                  uuid = "C5B08A32-B147-4D4E-ACCB-402935199A4C - 7b47e61047694fee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__43-[BaseRequest getRequest:andCallBackBlock:]_block_invoke"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/BaseRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96CC3276-3F58-4CB6-BC09-37D6AE9E2AFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Mine/Controller/MineViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-getDataSource"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E1B83E2-FA99-47C2-AE98-9B9E9E8CA68B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
+            landmarkName = "-updatePrice"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6913FCD9-CA98-4FA2-9AD2-4988E708E723"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Controller/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-loginEvent"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6913FCD9-CA98-4FA2-9AD2-4988E708E723 - 4ed2665aa8d9ea2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController loginEvent]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/View/Login/Controller/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "6913FCD9-CA98-4FA2-9AD2-4988E708E723 - dd463881a69a7e44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__33-[LoginViewController loginEvent]_block_invoke"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/View/Login/Controller/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "6913FCD9-CA98-4FA2-9AD2-4988E708E723 - 87270c9700059db1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_e8_32s40s"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/View/Login/Controller/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3093BA98-3C58-485A-B26D-3A69C31675FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/DataProvider.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-login:andPassword:andCallBackBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3093BA98-3C58-485A-B26D-3A69C31675FA - 1432310365272573"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DataProvider login:andPassword:andCallBackBlock:]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/DataProvider.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "425">
+               </Location>
+               <Location
+                  uuid = "3093BA98-3C58-485A-B26D-3A69C31675FA - 8129a3ad0b93a2e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__51-[DataProvider login:andPassword:andCallBackBlock:]_block_invoke"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/DataProvider.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34AA12B0-A7AF-4B8B-81C5-233DAABC6A95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Login/Controller/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "-loginCallBackSetting:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6710BE02-5C53-4663-8167-E987CADC548A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/BaseRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-manager"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "568993FB-9043-489F-8484-144A18C96DE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/RecommendItemTableViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "-setGasDataDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D329E70-EE96-404D-9684-70AB29831A68"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "-show"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2D329E70-EE96-404D-9684-70AB29831A68 - 5a91a5075d95dc74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DropDownMenu show]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "2D329E70-EE96-404D-9684-70AB29831A68 - 5a91a5075d95dc74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DropDownMenu show]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2909047D-0F4D-4132-AF44-DC47BDB39F3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-setItemArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B2C2748-FEBC-4568-8EB7-9BD40252D063"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/CustomUI/DropDownMenu/DropDownMenu.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-initWithFrame:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38783C6E-011B-4E70-91A3-FC5FC1381F97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/IndexLunbotuTableViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-setUpUI"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B794A01-7340-4516-A549-C6DD2A591E80"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "358"
+            endingLineNumber = "358"
+            landmarkName = "-setGasDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA2623AB-7F52-4E9F-90FD-22615ED96065"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "-initYouhaoView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D87A6F37-1AF3-43AE-8801-E8F23724C725"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "279"
+            endingLineNumber = "279"
+            landmarkName = "-initYouhaoView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97642A2F-81BD-4F27-A7E9-63EB37ED476C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "337"
+            endingLineNumber = "337"
+            landmarkName = "-setGasDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0A497A0-9C34-4116-AAAA-BE6A24CE9663"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
+            landmarkName = "-setGasDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FEB85E6-A8D6-4D17-B4ED-8634827B6138"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "-setGasDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "267A5087-AF82-4BB9-A3AA-0E038E7CCB2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "388"
+            endingLineNumber = "388"
+            landmarkName = "-clickYoupinEvent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73B7F90E-A4F5-4CB6-AAA2-C0FD735390EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/LininzuijinTableViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "-setGasDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CD63CB7-ECF8-4200-96CA-2797EE3E69FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/Controller/IndexViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9636371B-82EA-414E-B076-5D1EA248A38B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Order/Controller/SureOrder/SureOrderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-initData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7D2EF78-D363-42B9-A494-14C0218D7DB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/Controller/IndexViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-initView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCF12674-FF3A-4E3E-BD6A-C617CC3FC23E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/Controller/IndexViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-initView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F209C32-3BD9-429B-A276-5510384CB0D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Order/Controller/SureOrder/SureOrderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "-clickSurePayEvent"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "668A254A-D230-44FD-A24D-2FCCCD5E36C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Order/Controller/SureOrder/SureOrderViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "-clickSurePayEvent"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D54A9A4-A673-4BC3-9725-F84584A90FED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/DataProvider.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "-surePay:andMachineCode:andMachineNozzleCode:andMachineNozzleOilsType:andMachineNozzleOils:andOilsPrice:andLitre:andTotal:andCallBackBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C00D15D3-9A0B-42B1-A6A6-80E14F122502"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/DataProvider/DataProvider.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "-surePay:andMachineCode:andMachineNozzleCode:andMachineNozzleOilsType:andMachineNozzleOils:andOilsPrice:andLitre:andTotal:andCallBackBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C00D15D3-9A0B-42B1-A6A6-80E14F122502 - 24809eb5781fe19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DataProvider surePay:andMachineCode:andMachineNozzleCode:andMachineNozzleOilsType:andMachineNozzleOils:andOilsPrice:andLitre:andTotal:andCallBackBlock:]"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/DataProvider.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "899">
+               </Location>
+               <Location
+                  uuid = "C00D15D3-9A0B-42B1-A6A6-80E14F122502 - 62ff25ae96d5bddb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__154-[DataProvider surePay:andMachineCode:andMachineNozzleCode:andMachineNozzleOilsType:andMachineNozzleOils:andOilsPrice:andLitre:andTotal:andCallBackBlock:]_block_invoke"
+                  moduleName = "Zhongminyou"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lifaqi/%E5%85%AC%E5%8F%B8/%E8%B5%9B%E6%8D%B7%E5%85%AC%E5%8F%B8/%E9%A1%B9%E7%9B%AE/iOS/%E4%B8%AD%E6%B0%91%E6%B2%B9/Zhongminyou/Zhongminyou/DataProvider/DataProvider.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DFDE3B1-AB0C-46DA-A39B-DA36A42AA65F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
+            landmarkName = "-setGasDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91BF7E22-991D-4591-A57D-124F69AE2F01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "351"
+            endingLineNumber = "351"
+            landmarkName = "-setGasDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1E45EDA-BEFA-4BC0-BBBF-6FDE0E5D3DCE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "338"
+            endingLineNumber = "338"
+            landmarkName = "-setGasDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6E8F324-D2C4-4EB6-A780-A22752300BD1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "404"
+            endingLineNumber = "404"
+            landmarkName = "-clickYoupinEvent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9238894B-EAC5-41CB-8529-41E8AA4D9C84"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/View/Index/View/Lijijiayou/LijijiayouView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "289"
+            endingLineNumber = "289"
+            landmarkName = "-initYouhaoView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "218627C5-27B8-4326-ACA7-41AF09612DC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Zhongminyou/CustomUI/SWYMapVIewController/SWYMapViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-clickRightButton:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

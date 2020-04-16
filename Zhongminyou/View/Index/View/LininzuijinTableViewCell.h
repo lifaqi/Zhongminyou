@@ -10,10 +10,13 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^LijijiayouCallBack) (void);
+typedef void (^DingweiCallBack) (CGFloat lng, CGFloat lat, NSString *titleStr);
 
 @interface LininzuijinTableViewCell : UITableViewCell
 
 @property (nonatomic, copy) LijijiayouCallBack lijijiayouCallBack;
+@property (nonatomic, copy) DingweiCallBack dingweiCallBack;
+@property (nonatomic, strong) NSDictionary *gasDict;
 
 #pragma mark - func
 + (CGFloat)getCellHeight;

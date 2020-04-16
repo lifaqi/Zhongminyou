@@ -9,7 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void (^DingweiCallBack) (CGFloat lng, CGFloat lat, NSString *titleStr);
+
 @interface RecommendItemTableViewCell : UITableViewCell
+
+@property (nonatomic, strong) NSDictionary *gasDataDict;
+@property (nonatomic, copy) DingweiCallBack dingweiCallBack;
 
 + (CGFloat)getCellHeight;
 

@@ -14,6 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
+  - AMap2DMap (5.6.1):
+    - AMapFoundation (~> 1.4)
+  - AMapFoundation (1.6.3)
+  - AMapLocation (2.6.5):
+    - AMapFoundation (~> 1.6.3)
   - MJRefresh (3.1.15.3)
   - SDCycleScrollView (1.75):
     - SDWebImage (>= 4.0.0)
@@ -25,6 +30,8 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (= 3.2.0)
+  - AMap2DMap
+  - AMapLocation
   - MJRefresh (= 3.1.15.3)
   - SDCycleScrollView (= 1.75)
   - SDWebImage (= 4.3.1)
@@ -34,6 +41,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - AMap2DMap
+    - AMapFoundation
+    - AMapLocation
     - MJRefresh
     - SDCycleScrollView
     - SDWebImage
@@ -42,12 +52,15 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  AMap2DMap: cac76bc057de18a1641f34df6b50bf5bc6b23571
+  AMapFoundation: 9ed923193b357ebb30a073e9fe255d3c24054d5a
+  AMapLocation: c566d448285cd502c1e313063d9e2460bd4d7100
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 09808bac78357b39f8db4ea360c7b5534d785ef4
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: 081f37d6d6761055216f6dc6e930418c6a12ef7d
+PODFILE CHECKSUM: 39fd974fa4faf9ee17dd1994924157afc2d3c0bd
 
 COCOAPODS: 1.9.1

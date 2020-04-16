@@ -7,10 +7,14 @@
 
 #import "MineViewController.h"
 #import "CustomButton.h"
+#import "MJRefresh.h"
 
 #define CellIdentifier @"CellIdentifier"
 
-@interface MineViewController ()<UITableViewDataSource, UITableViewDelegate>
+@interface MineViewController ()<UITableViewDataSource, UITableViewDelegate>{
+    // data
+    NSDictionary *userDataDict;
+}
 
 @property (nonatomic, strong) UITableView *mTableView;
 
@@ -32,10 +36,38 @@
     _mTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, HeaderHeight, ScreenWidth, ScreenHeight - HeaderHeight - TabBarHeight)];
     _mTableView.dataSource = self;
     _mTableView.delegate = self;
+    _mTableView.bounces = NO;
     _mTableView.tableFooterView = [[UIView alloc] init];
     [self.view addSubview:_mTableView];
     
     [_mTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CellIdentifier];
+    
+    _mTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
+    [_mTableView.mj_header beginRefreshing];
+}
+
+#pragma mark - dataSource
+-(void)refreshData{
+    userDataDict = [[NSDictionary alloc] init];
+    
+    [self getDataSource];
+}
+
+-(void)getDataSource{
+    [[DataProvider shareInstance] getUserInfo:^(id dict) {
+        [_mTableView.mj_header endRefreshing];
+        if ([dict[@"code"] intValue] == 0) {
+            [ToolKit dismiss];
+            
+            SWYLog(@"%@",dict);
+            
+            userDataDict = dict[@"data"];
+            
+            [_mTableView reloadData];
+        }else{
+            [ToolKit showErrorWithStatus:dict[@"msg"]];
+        }
+    }];
 }
 
 #pragma mark - UITableViewDataSource
@@ -74,7 +106,7 @@
         UILabel *nameLbl = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(photoIv.frame) + FW(12), CGRectGetMinY(photoIv.frame) + FH(5), FW(200), FH(21))];
         nameLbl.textColor = [UIColor whiteColor];
         nameLbl.font = [UIFont systemFontOfSize:17];
-        nameLbl.text = @"路人甲";
+        nameLbl.text = userDataDict[@"memberName"];
         [bgIv addSubview:nameLbl];
         
         // sexLbl

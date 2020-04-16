@@ -15,6 +15,7 @@
 @property (nonatomic, strong) SDCycleScrollView *cycleScrollView;
 @property (nonatomic, strong) DropDownMenu *typeMenu;
 @property (nonatomic, strong) DropDownMenu *IDMenu;
+@property (nonatomic, strong) NSString *selectYoupin;
 
 @end
 
@@ -25,6 +26,7 @@
     if (self) {
         [self setUpUI];
         
+        self.selectYoupin = @"汽油";
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         self.backgroundColor = BackGroundColor;
     }
@@ -34,7 +36,7 @@
 #pragma mark - setUpUI
 -(void)setUpUI{
     // cycleScrollView
-    _cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenWidth / 3) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder_img"]];
+    _cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenWidth / 2.5) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder_img"]];
     _cycleScrollView.delegate = self;
     _cycleScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentRight;
 //    _cycleScrollView.currentPageDotColor = RedColor;
@@ -55,14 +57,18 @@
     
     // typeMenu
     _typeMenu = [[DropDownMenu alloc] initWithFrame:CGRectMake(CGRectGetMaxX(bgView.frame) - FW(30+60+20+60), (CGRectGetHeight(bgView.frame) - FH(25)) / 2, FW(60), FH(25))];
-    _typeMenu.itemArray = @[@"汽油", @"柴油"];
     _typeMenu.selectIndex = 0;
+    _typeMenu.itemArray = @[@"汽油", @"柴油"];
     WEAKSELF;
     _typeMenu.clickItemEvent = ^(NSInteger index) {
         if (index == 0) {
+            weakSelf.selectYoupin = @"汽油";
             weakSelf.IDMenu.itemArray = @[@"92#",@"93#",@"95#",@"97#",@"98#"];
+            weakSelf.selectYouhaoCallBack(weakSelf.selectYoupin, @"92#");
         }else{
+            weakSelf.selectYoupin = @"柴油";
             weakSelf.IDMenu.itemArray = @[@"0#",@"-10#",@"-20#",@"-30#",@"-50#"];
+            weakSelf.selectYouhaoCallBack(weakSelf.selectYoupin, @"0#");
         }
         weakSelf.typeMenu.selectIndex = index;
     };
@@ -71,10 +77,12 @@
     
     // IDMenu
     _IDMenu = [[DropDownMenu alloc] initWithFrame:CGRectMake(CGRectGetMaxX(bgView.frame) - FW(30+60), (CGRectGetHeight(bgView.frame) - FH(25)) / 2, FW(60), FH(25))];
-    _IDMenu.itemArray = @[@"92#",@"93#",@"95#",@"97#",@"98#"];
     _IDMenu.selectIndex = 0;
+    _IDMenu.itemArray = @[@"92#",@"93#",@"95#",@"97#",@"98#"];
     _IDMenu.clickItemEvent = ^(NSInteger index) {
         weakSelf.IDMenu.selectIndex = index;
+        
+        weakSelf.selectYouhaoCallBack(weakSelf.selectYoupin, weakSelf.IDMenu.itemArray[index]);
     };
     [bgView addSubview:_IDMenu];
     
@@ -85,12 +93,12 @@
 
 #pragma mark - func
 + (CGFloat)getCellHeight{
-    return ScreenWidth / 3 + FH(30 + 10);
+    return ScreenWidth / 2.5 + FH(30 + 10);
 }
 
 #pragma mark - data source
 -(void)setImagesURLStringsArray:(NSArray *)imagesURLStringsArray{
-    _cycleScrollView.imageURLStringsGroup = imagesURLStringsArray;
+    _cycleScrollView.localizationImageNamesGroup = imagesURLStringsArray;
 }
 
 -(void)setFrameHeight:(CGFloat)height{

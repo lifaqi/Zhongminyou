@@ -7,6 +7,10 @@
 
 #import "AccountInfoModel.h"
 
+@interface AccountInfoModel()
+
+@end
+
 @implementation AccountInfoModel
 
 + (instancetype)AccountInfoWithDict:(NSString *)account andPassword:(NSString *)password{
@@ -31,17 +35,24 @@
 /*
  * 自定义的对象 无法直接写入到userdefault中 需要转化为 nsdata 这时需要实现下面两个方法
  */
-- (void)encodeWithCoder:(NSCoder *)coder{
-    [coder encodeObject:self.account forKey:@"account"];
-    [coder encodeObject:self.password forKey:@"password"];
-}
 
-
--(instancetype)initWithCoder:(NSCoder *)coder{
-    self.account = [[coder decodeObjectForKey:@"account"] copy];
-    self.password = [[coder decodeObjectForKey:@"password"] copy];
+-(instancetype)initWithCoder:(NSCoder *)decoder{
+    self = [super init];
+    if (self) {
+        self.account = [decoder decodeObjectOfClass:[NSString class] forKey:@"account"];
+        self.password = [decoder decodeObjectOfClass:[NSString class] forKey:@"password"];
+    }
     
     return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)encoder{
+    [encoder encodeObject:self.account forKey:@"account"];
+    [encoder encodeObject:self.password forKey:@"password"];
+}
+
++ (BOOL)supportsSecureCoding{
+    return YES;
 }
 
 @end

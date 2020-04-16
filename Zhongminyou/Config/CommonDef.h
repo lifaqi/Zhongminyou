@@ -30,11 +30,17 @@
 #pragma mark - NSString格式化
 #define SWYNSStringFromFormat(fmt,...) [NSString stringWithFormat:fmt,##__VA_ARGS__]
 
+#pragma mark - NSlog格式化
+#define SWYLog(xx, ...)  NSLog(@"%s(%d): " xx, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
 #pragma mark - 弱引用
 #define WEAKSELF __weak typeof(self) weakSelf = self;
 
 #pragma mark - 支付
 #define AppScheme @"www.xxx.com"
+
+#pragma mark - 高德地图
+#define MapAppKey @"70f85f21f20b08a5cde7d9ea9ecae6bc"
 
 #pragma mark - 下载地址
 #define AppStoreDownloadAddress @"https://itunes.apple.com/app/idxxxxxxxx"

@@ -45,10 +45,13 @@
 		0FC2822B243C1D07009AA4E0 /* UITextField+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC28224243C1D07009AA4E0 /* UITextField+Category.m */; };
 		0FC2822C243C1D07009AA4E0 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC28226243C1D07009AA4E0 /* UIImage+Category.m */; };
 		0FC2822D243C1D07009AA4E0 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC28227243C1D07009AA4E0 /* UIView+Category.m */; };
+		0FC8D1F424443FDE0050F9CC /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8D1F324443FDE0050F9CC /* LocationModel.m */; };
+		0FC8D1FC24446BB80050F9CC /* SWYMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8D1FB24446BB80050F9CC /* SWYMapViewController.m */; };
 		0FCA5E40243C598C0018E931 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA5E3F243C598B0018E931 /* RegisterViewController.m */; };
 		0FCA5E44243C6CE00018E931 /* UserAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA5E43243C6CDF0018E931 /* UserAgreementViewController.m */; };
 		0FCA5E47243C7B430018E931 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA5E46243C7B430018E931 /* ForgetViewController.m */; };
 		0FCA5E4B243C7DD80018E931 /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA5E4A243C7DD80018E931 /* CountDown.m */; };
+		0FF2D1542446E74500E16883 /* OrderInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF2D1532446E74500E16883 /* OrderInfoModel.m */; };
 		564F06AA6060B038E38E0E7F /* Pods_ZhongminyouTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8874F17CD16381E443A9DE16 /* Pods_ZhongminyouTests.framework */; };
 		96F43342B8CD8F34FF9D32D5 /* Pods_Zhongminyou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD802EFDC18F6B4470B38510 /* Pods_Zhongminyou.framework */; };
 		BE466888A3FC2DD8A45F77F0 /* Pods_Zhongminyou_ZhongminyouUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE165F862431891D3910AE4 /* Pods_Zhongminyou_ZhongminyouUITests.framework */; };
@@ -133,6 +136,7 @@
 		0F972847243EFA970021B429 /* RecommendItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendItemTableViewCell.m; sourceTree = "<group>"; };
 		0F972849243F152F0021B429 /* GasLunbotuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GasLunbotuTableViewCell.h; sourceTree = "<group>"; };
 		0F97284A243F152F0021B429 /* GasLunbotuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GasLunbotuTableViewCell.m; sourceTree = "<group>"; };
+		0F9B7D6F2445A52C00A811F9 /* Zhongminyou.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zhongminyou.entitlements; sourceTree = "<group>"; };
 		0F9B942624414BC40041428E /* LininzuijinTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LininzuijinTableViewCell.h; sourceTree = "<group>"; };
 		0F9B942724414BC40041428E /* LininzuijinTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LininzuijinTableViewCell.m; sourceTree = "<group>"; };
 		0F9B942A244158280041428E /* LijijiayouView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LijijiayouView.h; sourceTree = "<group>"; };
@@ -151,6 +155,10 @@
 		0FC28227243C1D07009AA4E0 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		0FC28228243C1D07009AA4E0 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
 		0FC28229243C1D07009AA4E0 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		0FC8D1F224443FDE0050F9CC /* LocationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		0FC8D1F324443FDE0050F9CC /* LocationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		0FC8D1FA24446BB80050F9CC /* SWYMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWYMapViewController.h; sourceTree = "<group>"; };
+		0FC8D1FB24446BB80050F9CC /* SWYMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWYMapViewController.m; sourceTree = "<group>"; };
 		0FCA5E3E243C598B0018E931 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		0FCA5E3F243C598B0018E931 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		0FCA5E42243C6CDF0018E931 /* UserAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAgreementViewController.h; sourceTree = "<group>"; };
@@ -159,6 +167,8 @@
 		0FCA5E46243C7B430018E931 /* ForgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
 		0FCA5E49243C7DD80018E931 /* CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDown.h; sourceTree = "<group>"; };
 		0FCA5E4A243C7DD80018E931 /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDown.m; sourceTree = "<group>"; };
+		0FF2D1522446E74500E16883 /* OrderInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderInfoModel.h; sourceTree = "<group>"; };
+		0FF2D1532446E74500E16883 /* OrderInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderInfoModel.m; sourceTree = "<group>"; };
 		79E2F180ABB6639041176E19 /* Pods-Zhongminyou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhongminyou.debug.xcconfig"; path = "Target Support Files/Pods-Zhongminyou/Pods-Zhongminyou.debug.xcconfig"; sourceTree = "<group>"; };
 		8874F17CD16381E443A9DE16 /* Pods_ZhongminyouTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhongminyouTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE165F862431891D3910AE4 /* Pods_Zhongminyou_ZhongminyouUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zhongminyou_ZhongminyouUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,6 +233,7 @@
 		0F3DB176243B0F7E00E2E921 /* Zhongminyou */ = {
 			isa = PBXGroup;
 			children = (
+				0F9B7D6F2445A52C00A811F9 /* Zhongminyou.entitlements */,
 				0F3DB1BB243B14E000E2E921 /* Plist */,
 				0F3DB1D2243B165100E2E921 /* Config */,
 				0F3DB1CF243B165100E2E921 /* Toolkit */,
@@ -269,6 +280,7 @@
 		0F3DB1BC243B165100E2E921 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
+				0FC8D1F924446B9B0050F9CC /* SWYMapVIewController */,
 				0F97283C243D78970021B429 /* CustomButton */,
 				0F9727FF243D71A60021B429 /* DropDownMenu */,
 				0FCA5E48243C7DD80018E931 /* CountDown */,
@@ -449,6 +461,8 @@
 				0F9B942E2441AF970041428E /* AccountInfoModel.m */,
 				0F9B94332441B3900041428E /* UserInfoModel.h */,
 				0F9B94342441B3900041428E /* UserInfoModel.m */,
+				0FC8D1F224443FDE0050F9CC /* LocationModel.h */,
+				0FC8D1F324443FDE0050F9CC /* LocationModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -515,6 +529,8 @@
 		0F9727F3243D5A240021B429 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0FF2D1522446E74500E16883 /* OrderInfoModel.h */,
+				0FF2D1532446E74500E16883 /* OrderInfoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -603,6 +619,15 @@
 			path = SureOrder;
 			sourceTree = "<group>";
 		};
+		0FC8D1F924446B9B0050F9CC /* SWYMapVIewController */ = {
+			isa = PBXGroup;
+			children = (
+				0FC8D1FA24446BB80050F9CC /* SWYMapViewController.h */,
+				0FC8D1FB24446BB80050F9CC /* SWYMapViewController.m */,
+			);
+			path = SWYMapVIewController;
+			sourceTree = "<group>";
+		};
 		0FCA5E41243C6CDF0018E931 /* UserAgreement */ = {
 			isa = PBXGroup;
 			children = (
@@ -656,6 +681,7 @@
 				0F3DB171243B0F7E00E2E921 /* Frameworks */,
 				0F3DB172243B0F7E00E2E921 /* Resources */,
 				D99EE83BD642A92B93B6463E /* [CP] Embed Pods Frameworks */,
+				DE62A9B4B03D7CD5C9F19E88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -694,6 +720,7 @@
 				0F3DB197243B0F8400E2E921 /* Frameworks */,
 				0F3DB198243B0F8400E2E921 /* Resources */,
 				1FAEEABF4DCB2D4B91D6F2FD /* [CP] Embed Pods Frameworks */,
+				733B7E17F30D25E3B0E9B8C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -790,6 +817,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zhongminyou-ZhongminyouUITests/Pods-Zhongminyou-ZhongminyouUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		733B7E17F30D25E3B0E9B8C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zhongminyou-ZhongminyouUITests/Pods-Zhongminyou-ZhongminyouUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zhongminyou-ZhongminyouUITests/Pods-Zhongminyou-ZhongminyouUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zhongminyou-ZhongminyouUITests/Pods-Zhongminyou-ZhongminyouUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		73A36271564A53FFE59C39C2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -873,6 +917,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zhongminyou/Pods-Zhongminyou-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DE62A9B4B03D7CD5C9F19E88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zhongminyou/Pods-Zhongminyou-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zhongminyou/Pods-Zhongminyou-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zhongminyou/Pods-Zhongminyou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -880,6 +941,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF2D1542446E74500E16883 /* OrderInfoModel.m in Sources */,
 				0F491A7E24404C9A0002B92C /* LeijixiaofeiTableViewCell.m in Sources */,
 				0FC2822D243C1D07009AA4E0 /* UIView+Category.m in Sources */,
 				0F9B94352441B3900041428E /* UserInfoModel.m in Sources */,
@@ -891,9 +953,11 @@
 				0F3DB1E0243B165200E2E921 /* LoginViewController.m in Sources */,
 				0F3DB1F0243B1EE500E2E921 /* GasViewController.m in Sources */,
 				0F3DB1F6243B1EFD00E2E921 /* MineViewController.m in Sources */,
+				0FC8D1FC24446BB80050F9CC /* SWYMapViewController.m in Sources */,
 				0F3DB1DD243B165200E2E921 /* CustomTabBarViewController.m in Sources */,
 				0F9B942C244158280041428E /* LijijiayouView.m in Sources */,
 				0F3DB1DC243B165200E2E921 /* BaseNavigationController.m in Sources */,
+				0FC8D1F424443FDE0050F9CC /* LocationModel.m in Sources */,
 				0F3DB1E2243B165200E2E921 /* DataProvider.m in Sources */,
 				0F3DB179243B0F7E00E2E921 /* AppDelegate.m in Sources */,
 				0F972802243D71F50021B429 /* DropDownMenu.m in Sources */,
@@ -987,7 +1051,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1045,7 +1109,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1079,15 +1143,17 @@
 			baseConfigurationReference = 79E2F180ABB6639041176E19 /* Pods-Zhongminyou.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zhongminyou/Zhongminyou.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32JQ98DY35;
 				GCC_PREFIX_HEADER = Zhongminyou/Config/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/Zhongminyou/Plist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saijie.Zhongminyou;
+				PRODUCT_BUNDLE_IDENTIFIER = uni.UNI1EA9183;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1098,15 +1164,17 @@
 			baseConfigurationReference = FE3400E8CB1995D0A49701C4 /* Pods-Zhongminyou.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zhongminyou/Zhongminyou.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32JQ98DY35;
 				GCC_PREFIX_HEADER = Zhongminyou/Config/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/Zhongminyou/Plist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saijie.Zhongminyou;
+				PRODUCT_BUNDLE_IDENTIFIER = uni.UNI1EA9183;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

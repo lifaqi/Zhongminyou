@@ -56,7 +56,7 @@
 
 +(UserInfoModel *)getUserInfo{
     NSData *tempData = [ToolKit getValueByKey:@"UserInfo"];
-    return [NSKeyedUnarchiver unarchivedObjectOfClass:[AccountInfoModel class] fromData:tempData error:nil];
+    return [NSKeyedUnarchiver unarchivedObjectOfClass:[UserInfoModel class] fromData:tempData error:nil];
 }
 
 #pragma mark - 字符串处理
@@ -137,6 +137,15 @@
     CFStringTransform((CFMutableStringRef)str, NULL, kCFStringTransformStripDiacritics, NO);
     NSString *s = [str capitalizedString];
     return s;
+}
+
++(NSString *)handleSpecialCharacters:(NSString *)str{
+    NSString *newStr = str;
+    if ([newStr containsString:@"#"]) {
+        newStr = [newStr stringByReplacingOccurrencesOfString:@"#" withString:@"%23"];
+    }
+    
+    return newStr;
 }
 
 #pragma mark - UIView处理
@@ -451,6 +460,17 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         gcdCallBack();
     });
+}
+
+#pragma mark - 地图信息
++(void)setLocationModelInfo:(LocationModel *)model{
+    NSData *tempData = [NSKeyedArchiver archivedDataWithRootObject:model requiringSecureCoding:YES error:nil];
+    [ToolKit setValueByKey:@"LocationInfo" andObject:tempData];
+}
+
++(LocationModel *)getLocationInfo{
+    NSData *tempData = [ToolKit getValueByKey:@"LocationInfo"];
+    return [NSKeyedUnarchiver unarchivedObjectOfClass:[LocationModel class] fromData:tempData error:nil];
 }
 
 #pragma mark - UIAlertView

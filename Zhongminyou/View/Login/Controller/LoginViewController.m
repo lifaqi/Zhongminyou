@@ -55,6 +55,7 @@
     accountTf.layer.cornerRadius = CGRectGetHeight(accountTf.frame) / 2;
     accountTf.leftPadding = 20;
     accountTf.placeholder = @"手机号";
+    accountTf.text = @"123";
     [self.view addSubview:accountTf];
     
     // passwordTf
@@ -66,6 +67,7 @@
     passwordTf.leftPadding = 20;
     passwordTf.secureTextEntry = YES;
     passwordTf.placeholder = @"密码";
+    passwordTf.text = @"123";
     [self.view addSubview:passwordTf];
     
     // loginBtn
@@ -100,6 +102,10 @@
 
 #pragma mark - event
 -(void)loginEvent{
+    
+//    [[NSNotificationCenter defaultCenter] postNotificationName:@"loginCallBackSetting" object:nil userInfo:nil];
+//
+//    return;
 
     NSString *accountValue = [ToolKit dealWithString:accountTf.text];
     NSString *passwordValue = [ToolKit dealWithString:passwordTf.text];
@@ -119,11 +125,12 @@
         if ([dict[@"code"] intValue] == 0) {
             [ToolKit dismiss];
             
-            [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionTransitionFlipFromRight animations:^{
-                [[NSNotificationCenter defaultCenter] postNotificationName:@"loginCallBackSetting" object:nil userInfo:nil];
-            } completion:^(BOOL finished) {
-                [ToolKit setAccountInfo:[AccountInfoModel AccountInfoWithDict:accountValue andPassword:passwordValue]];
-            }];
+            SWYLog(@"%@",dict[@"data"]);
+            
+            [ToolKit setAccountInfo:[AccountInfoModel AccountInfoWithDict:accountValue andPassword:passwordValue]];
+            [ToolKit setUserInfo:[UserInfoModel UserInfoWithDict:dict]];
+            
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"loginCallBackSetting" object:nil userInfo:nil];
         }else{
             [ToolKit showErrorWithStatus:dict[@"msg"]];
         }

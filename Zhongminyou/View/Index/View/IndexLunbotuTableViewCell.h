@@ -12,6 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^IndexLunbotuClickBlock) (NSInteger index, NSInteger tag);
+typedef void (^SelectYouhaoCallBack) (NSString *youpin, NSString *youhao);
 
 @interface IndexLunbotuTableViewCell : UITableViewCell
 
@@ -19,6 +20,7 @@ typedef void (^IndexLunbotuClickBlock) (NSInteger index, NSInteger tag);
 @property (nonatomic, assign) CGFloat frameHeight;
 @property (nonatomic, assign) SDCycleScrollViewPageContolAliment pageContolAliment;
 @property (nonatomic, copy) IndexLunbotuClickBlock indexLunbotuClickBlock;
+@property (nonatomic, copy) SelectYouhaoCallBack selectYouhaoCallBack;
 
 + (CGFloat)getCellHeight;
 

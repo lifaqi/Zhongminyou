@@ -26,7 +26,6 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        topView = [ToolKit getTopView];
         saveImage = [[NSMutableArray alloc] init];
         
         [self setUpUI];
@@ -61,7 +60,7 @@
 -(void)setItemArray:(NSArray *)itemArray{
     _itemArray = itemArray;
     // showBgBtn
-    CGFloat topValue = StatusBarHeight + ScreenWidth / 2 + FH(30) - FH(60-25) / 2;
+    CGFloat topValue = ScreenWidth / 2 + FH(30) - FH(60-25) / 2 + FH(10);
     showBgBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, topValue, ScreenWidth, ScreenHeight - topValue - TabBarHeight - FH(1))];
     showBgBtn.hidden = YES;
     showBgBtn.alpha = 0.3;
@@ -77,7 +76,7 @@
     itemView.backgroundColor = [UIColor whiteColor];
     [topView addSubview:itemView];
     // selectIv
-    selectIv = [[UIImageView alloc] initWithFrame:CGRectMake(CGRectGetWidth(itemView.frame) - FH(20+20), 0, FH(20), FH(20))];
+    selectIv = [[UIImageView alloc] initWithFrame:CGRectMake(CGRectGetWidth(itemView.frame) - FH(20+20), FH(44-20) / 2, FH(20), FH(20))];
     selectIv.alpha = 0;
     selectIv.contentMode = UIViewContentModeScaleAspectFit;
     selectIv.image = [UIImage imageNamed:@"duihao"];
@@ -110,6 +109,9 @@
 
 #pragma mark - event
 -(void)clickBgEvent{
+    if (topView == nil) {
+        topView = [ToolKit getTopView];
+    }
     if (showBgBtn.hidden) {
         [self show];
     }else{

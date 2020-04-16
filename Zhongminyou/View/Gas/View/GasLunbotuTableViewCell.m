@@ -7,7 +7,7 @@
 
 #import "GasLunbotuTableViewCell.h"
 
-#define CellHeight ScreenWidth / 3
+#define CellHeight ScreenWidth / 2.5
 
 @interface GasLunbotuTableViewCell()<SDCycleScrollViewDelegate>
 
@@ -45,7 +45,7 @@
 
 #pragma mark - data source
 -(void)setImagesURLStringsArray:(NSArray *)imagesURLStringsArray{
-    _cycleScrollView.imageURLStringsGroup = imagesURLStringsArray;
+    _cycleScrollView.localizationImageNamesGroup = imagesURLStringsArray;
 }
 
 -(void)setFrameHeight:(CGFloat)height{
