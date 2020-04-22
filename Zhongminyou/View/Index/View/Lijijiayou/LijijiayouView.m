@@ -327,7 +327,7 @@
     // addressLbl
     addressLbl.text = gasDict[@"staticAddress"];
     // distanceLbl
-    distanceLbl.text = SWYNSStringFromFormat(@"%.2fkm",[gasDict[@"range"] floatValue]);
+    distanceLbl.text = _distance;
     
     allQiYouYouhaoArray = gasDict[@"fillingOilVo"][@"gasoline"];
     allChaiYouYouhaoArray = gasDict[@"fillingOilVo"][@"dieselOil"];

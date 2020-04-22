@@ -145,7 +145,7 @@
         newStr = [newStr stringByReplacingOccurrencesOfString:@"#" withString:@"%23"];
     }
     
-    return newStr;
+    return [ToolKit dealWithString:newStr];
 }
 
 #pragma mark - UIView处理

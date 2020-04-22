@@ -20,7 +20,6 @@
     // Do any additional setup after loading the view.
     
     [self setLeftBtnImg:@"left"];
-    [self setRightTitle:@"导航"];
     [self setRightBtnImg:@"icon-qita"];
     
     [self setUpUI];
@@ -35,20 +34,17 @@
 }
 
 -(void)openMap{
-    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"iosiosmap://"]]) {
-        NSString *urlString = [NSString stringWithFormat:@"iosamap://viewMap?sourceApplication=%@&poiname=%@&lat=%@&lon=%@&dev=1",@"导航",@"中民油",SWYNSStringFromFormat(@"%f",_lat),SWYNSStringFromFormat(@"%f",_lng)];
-        [ToolKit openUrl:[NSURL URLWithString:urlString]];
+    NSString *urlString;
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"iosamap://"]]) {
+        urlString = [NSString stringWithFormat:@"iosamap://viewMap?sourceApplication=%@&poiname=%@&lat=%@&lon=%@&dev=1",@"导航",_titleStr,SWYNSStringFromFormat(@"%f",_lat),SWYNSStringFromFormat(@"%f",_lng)];
     }else if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"baidumap://"]]){
-        NSString *urlString = [NSString stringWithFormat:@"baidumap://map/marker?location=%f,%f&title=%@",_lat,_lng,_titleStr];
-        [ToolKit openUrl:[NSURL URLWithString:urlString]];
+        urlString = [NSString stringWithFormat:@"baidumap://map/marker?location=%f,%f&title=%@",_lat,_lng,_titleStr];
     }else{
-        NSString *urlString = [NSString stringWithFormat:@"https://uri.amap.com/marker?position=%f,%f&name=%@",_lng, _lat,_titleStr];
-        [ToolKit openUrl:[NSURL URLWithString:urlString]];
+        urlString = [NSString stringWithFormat:@"https://uri.amap.com/marker?position=%f,%f&name=%@",_lng, _lat,_titleStr];
     }
-}
-
--(void)baiduMap{
     
+    NSString * unicodeStr = [urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    [ToolKit openUrl:[NSURL URLWithString:unicodeStr]];
 }
 
 #pragma mark - setUpUI

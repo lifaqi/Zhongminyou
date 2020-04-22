@@ -38,17 +38,17 @@
     
     // gasVC
     GasViewController *gasVC = [[GasViewController alloc] init];
-    gasVC.tabBarItem.tag = 0;
+    gasVC.tabBarItem.tag = 1;
     [self setUpOneChildViewController:gasVC andImageStr:@"type" andSelectImageStr:@"type1" andTitle:@"加油站"];
     
     // orderVC
     OrderViewController *orderVC = [[OrderViewController alloc] init];
-    orderVC.tabBarItem.tag = 0;
+    orderVC.tabBarItem.tag = 2;
     [self setUpOneChildViewController:orderVC andImageStr:@"cart" andSelectImageStr:@"cart1" andTitle:@"  订单"];
     
     // mineVC
     MineViewController *mineVC = [[MineViewController alloc] init];
-    mineVC.tabBarItem.tag = 0;
+    mineVC.tabBarItem.tag = 3;
     [self setUpOneChildViewController:mineVC andImageStr:@"mine" andSelectImageStr:@"mine1" andTitle:@"我的"];
 }
 

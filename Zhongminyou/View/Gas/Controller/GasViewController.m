@@ -179,6 +179,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 1 && indexPath.row > 0) {
+        lijijiayouView.distance = SWYNSStringFromFormat(@"%.2fkm",[gasDataArray[indexPath.row - 1][@"range"] floatValue]);
         [[DataProvider shareInstance] getGasDetail:gasDataArray[indexPath.row - 1][@"staticId"] andCallBackBlock:^(id dict) {
             if ([dict[@"code"] intValue] == 0) {
                 lijijiayouView.gasDict = dict[@"data"];

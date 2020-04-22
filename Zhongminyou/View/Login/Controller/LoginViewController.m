@@ -55,7 +55,6 @@
     accountTf.layer.cornerRadius = CGRectGetHeight(accountTf.frame) / 2;
     accountTf.leftPadding = 20;
     accountTf.placeholder = @"手机号";
-    accountTf.text = @"123";
     [self.view addSubview:accountTf];
     
     // passwordTf
@@ -67,7 +66,6 @@
     passwordTf.leftPadding = 20;
     passwordTf.secureTextEntry = YES;
     passwordTf.placeholder = @"密码";
-    passwordTf.text = @"123";
     [self.view addSubview:passwordTf];
     
     // loginBtn

@@ -32,9 +32,6 @@
         // AFPropertyListRequestSerializer    PList(是一种特殊的XML,解析起来相对容易)
         _manager.requestSerializer = [AFHTTPRequestSerializer serializer];
         
-        // 设置请求头
-        [_manager.requestSerializer setValue:[ToolKit getUserInfo].access_token forHTTPHeaderField:@"access_token"];
-        
         // 超时时间
         _manager.requestSerializer.timeoutInterval = 15;
         
@@ -63,7 +60,7 @@
             json = @"";
             for (int i = 0; i < params.count ; i++) {
                 if (i == 0) {
-                    json = [NSString stringWithFormat:@"\"%@\":\"%@\"",params[i],results[i]];
+                    json = [NSString stringWithFormat:@"\"%@\":\"%@\"",params[i],[ToolKit handleSpecialCharacters:results[i]]];
                 }else{
                     json = [NSString stringWithFormat:@"%@,\"%@\":\"%@\"",json,params[i],[ToolKit handleSpecialCharacters:results[i]]];
                 }
@@ -84,6 +81,9 @@
 #pragma mark - request
 - (void)getRequest:(NSString *)url andCallBackBlock:(CallBackBlock)callBackBlock {
     
+    // 设置请求头
+    [_manager.requestSerializer setValue:[ToolKit getUserInfo].access_token forHTTPHeaderField:@"access_token"];
+    
     dataTask = [self.manager GET:[ToolKit handleSpecialCharacters:url] parameters:nil progress:^(NSProgress * _Nonnull downloadProgress){
         // 进度条
         
@@ -103,6 +103,9 @@
 
 - (void)postRequest:(NSString *)url andParams:(NSDictionary *)params andCallBackBlock:(CallBackBlock)callBackBlock {
     
+    // 设置请求头
+    [_manager.requestSerializer setValue:[ToolKit getUserInfo].access_token forHTTPHeaderField:@"access_token"];
+    
     dataTask = [self.manager POST:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress){
         // 进度条
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject){
@@ -120,6 +123,9 @@
 }
 
 - (void)uploadImg:(NSString *)url andPrm:(NSDictionary *)prm andFileData:(NSArray *)fileData andName:(NSString *)name andCallBackBlock:(CallBackBlock)callBackBlock {
+    
+    // 设置请求头
+    [_manager.requestSerializer setValue:[ToolKit getUserInfo].access_token forHTTPHeaderField:@"access_token"];
     
     dataTask = [self.manager POST:url parameters:prm constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         

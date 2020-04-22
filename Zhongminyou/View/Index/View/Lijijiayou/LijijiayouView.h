@@ -17,7 +17,8 @@ typedef void (^DingweiCallBack) (CGFloat lng, CGFloat lat, NSString *titleStr);
 @property (nonatomic, copy) LijiPayCallBack lijiPayCallBack;
 @property (nonatomic, strong) NSDictionary *gasDict;
 @property (nonatomic, copy) DingweiCallBack dingweiCallBack;
-@property (nonatomic, strong) NSString *youhao;;
+@property (nonatomic, strong) NSString *youhao;
+@property (nonatomic, strong) NSString *distance;
 
 #pragma mark - func
 -(void)show;
